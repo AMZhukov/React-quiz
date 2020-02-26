@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d98c72-2f9b-46a3-9efc-ec13cc31a47e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Qiuz/Quiz.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Qiuz/Quiz.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/ActiveQuiz.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/ActiveQuiz.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AnswersList/AnswersItem/AnswersItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AnswersList/AnswersItem/AnswersItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AnswersList/AnswersList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ActiveQuiz/AnswersList/AnswersList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FinishedQuiz/FinishedQuiz.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FinishedQuiz/FinishedQuiz.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/MenuToggle/MenuToggle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/MenuToggle/MenuToggle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Quiz/Quiz.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Quiz/Quiz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +36,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -36,6 +54,8 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582534327646</updated>
-      <workItem from="1582534332272" duration="3344000" />
+      <workItem from="1582534332272" duration="34858000" />
+      <workItem from="1582649953893" duration="3118000" />
     </task>
     <servers />
   </component>
@@ -71,7 +92,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
