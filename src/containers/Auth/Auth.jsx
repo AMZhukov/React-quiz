@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import classes from './Auth.module.css';
 import Button from '../../components/UI/Button/Button';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import Input from '../../components/UI/Input/Input';
 import is from 'is_js'
 
