@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d98c72-2f9b-46a3-9efc-ec13cc31a47e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/zhuko.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/axios/axios-quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logout/Logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Logout/Logout.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/Loader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader/Loader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Input/Input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input/Input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Drawer/Drawer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Auth/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Auth/Auth.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Quiz/Quiz.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Quiz/Quiz.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/QuizCreator/QuizCreator.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/QuizList/QuizList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/QuizList/QuizList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -32,13 +51,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/App.jsx" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/original(4)/src/store/actions/quiz.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/original(1)/src/components/UI/Input/Input.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/original(4)/src/store/reducers/quiz.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.jsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/original(1)/src/containers/Auth/Auth.jsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1YFNLaaKTiQ3t5xpMOQKwzBzvTI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -47,17 +73,8 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -71,7 +88,9 @@
       <updated>1582534327646</updated>
       <workItem from="1582534332272" duration="34858000" />
       <workItem from="1582649953893" duration="4359000" />
-      <workItem from="1582821112758" duration="50460000" />
+      <workItem from="1582821112758" duration="55744000" />
+      <workItem from="1583255423222" duration="2379000" />
+      <workItem from="1583586606791" duration="51822000" />
     </task>
     <servers />
   </component>
@@ -90,5 +109,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="622" y="85" width="737" height="909" key="find.popup" timestamp="1583758742491">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="622" y="85" width="737" height="909" key="find.popup/-1304.0.1304.768/62.0.1858.1080@62.0.1858.1080" timestamp="1583758742491" />
+    <state x="640" y="274" width="700" height="530" key="recent.locations.popup" timestamp="1583599935991">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="640" y="274" width="700" height="530" key="recent.locations.popup/-1304.0.1304.768/62.0.1858.1080@62.0.1858.1080" timestamp="1583599935991" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1583849654278">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/-1304.0.1304.768/62.0.1858.1080@62.0.1858.1080" timestamp="1583849654278" />
+    <state x="477" y="167" width="672" height="483" key="search.everywhere.popup/62.0.1304.768@62.0.1304.768" timestamp="1583841403410" />
   </component>
 </project>
